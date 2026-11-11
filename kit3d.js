@@ -387,7 +387,7 @@ function stepScene(dt) {
       emit('door', 'Bathroom door opened · night trip 3 tonight')
     }
     if (sc.id === 'slow' && sc.dist >= sc.total && at('alert'))
-      emit('alert', 'Walking speed down 20% vs 8 weeks ago → fall-risk alert sent to Sunrise Home Care')
+      emit('alert', 'Walking speed down 20% vs 8 weeks ago → fall-risk alert sent to the agency')
     if (sc.dist >= sc.total && at('done')) doors.bedroom.target = 0.12
   }
 }
