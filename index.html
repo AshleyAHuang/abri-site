@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abri · The safety platform for home care</title>
+  <meta name="description" content="Abri turns every home care visit into safety data: a 30-second aide debrief, early fall-risk alerts and tamper-evident visit records. The safety platform home care insurers price on." />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=13" />
+</head>
+<body>
+  <div class="progress" aria-hidden="true"><span></span></div>
+
+  <header class="nav">
+    <a class="brand" href="#top" aria-label="Abri home">
+      <svg viewBox="0 0 32 32" class="logo" aria-hidden="true"><rect width="32" height="32" rx="8" /><path class="roof" d="M6 16.5 16 8l10 8.5" /><path class="door" d="M13 24v-5.5h6V24" /></svg>
+      <span>Abri</span>
+    </a>
+    <nav>
+      <a href="#how">How it works</a>
+      <a href="#falls">Fall risk</a>
+      <a href="#claims">Claims</a>
+      <a href="#kit">The kit</a>
+      <a href="#agencies">For agencies</a>
+    </nav>
+    <a class="btn btn-small" href="#pilot">Join the pilot</a>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow reveal">The safety platform for home care</p>
+        <h1 class="reveal">Every visit leaves the home <em>safer</em> and the agency <em>better protected.</em></h1>
+        <p class="lede reveal">Abri turns a 30-second aide debrief into hazard alerts, early fall-risk signals and a tamper-evident visit record. Your aides get less paperwork, your clients get safer homes, and your insurer gets proof you run a safe operation.</p>
+        <div class="cta reveal">
+          <a class="btn" href="#pilot">Become a design partner</a>
+          <a class="btn btn-ghost" href="#how">See a visit →</a>
+        </div>
+        <p class="fine reveal">No cameras. No microphones in the home. Works on the aide's own phone.</p>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="float f1" data-depth="0.06">
+          <div class="chip warn">Fall risk rising</div>
+          <strong>Harold R., 84</strong>
+          <span>Walking speed −20% in 8 weeks</span>
+          <svg viewBox="0 0 160 44" class="spark"><path d="M2 8 L26 9 L50 12 L74 15 L98 21 L122 27 L146 34 L158 38" /></svg>
+        </div>
+        <div class="float f2" data-depth="0.12">
+          <div class="chip">Debrief · Spanish → English</div>
+          <p>“Se agarró de la cómoda dos veces…”</p>
+          <ul><li><b>High</b> Unsteady walking to bathroom</li><li><b>Med</b> Loose hallway rug</li></ul>
+        </div>
+        <div class="float f3" data-depth="0.09">
+          <div class="chip ok">Claim cleared</div>
+          <strong>No aide present 14:30–16:30</strong>
+          <span>Hash chain verified · 9 entries</span>
+        </div>
+        <div class="glow"></div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats" aria-label="Why it matters">
+      <div class="stat reveal"><b data-count="3.2" data-suffix="M" data-decimals="1">0</b><span>home care workers alone inside clients' homes</span></div>
+      <div class="stat reveal"><b data-count="41" data-suffix="%">0</b><span>of senior-care liability claims are falls</span></div>
+      <div class="stat reveal"><b data-count="384" data-prefix="$" data-suffix="k">0</b><span>average resident-abuse claim</span></div>
+      <div class="stat reveal"><b data-count="23" data-suffix="%">0</b><span>fewer falls with exercise programs</span></div>
+      <p class="sources">Sources: PHI 2025 · CNA Aging Services 2024 · Cochrane 2019</p>
+    </section>
+
+    <!-- Scrollytelling -->
+    <section id="how" class="story">
+      <div class="story-head">
+        <p class="eyebrow">How a visit works</p>
+        <h2>One morning with Lucía and Mr. Reyes</h2>
+      </div>
+      <div class="story-grid">
+        <div class="phone-wrap">
+          <div class="phone" aria-live="polite">
+            <div class="phone-top"><small>Abri for aides</small><b>Hi Lucía · 8:15 visit</b></div>
+            <div class="screens">
+              <div class="screen active" data-screen="0">
+                <p class="tag">Before shift</p>
+                <h4>Harold Reyes</h4>
+                <button class="play" type="button">▶ Play 45-second briefing</button>
+                <p class="bubble">El señor Reyes camina más lento este mes. Use el cinturón de marcha camino al baño.</p>
+                <div class="pills"><span>Gait belt</span><span>Dog in back room</span></div>
+              </div>
+              <div class="screen" data-screen="1">
+                <p class="tag">After shift</p>
+                <div class="mic"><span></span></div>
+                <p class="typed" data-text="Hoy ayudé al señor Reyes con el baño. Camina más lento y se agarró de la cómoda dos veces. Hay una alfombra suelta en el pasillo."></p>
+              </div>
+              <div class="screen" data-screen="2">
+                <p class="tag">Debrief saved · ¡Gracias!</p>
+                <div class="hz high"><b>High · Fall risk</b>Unsteady walking; reached for furniture.</div>
+                <div class="hz med"><b>Medium · Home</b>Loose rug on the bedroom → bathroom path.</div>
+                <div class="hz ok"><b>Paperwork</b>Done in 30 seconds.</div>
+              </div>
+              <div class="screen" data-screen="3">
+                <p class="tag">Coordinator dashboard</p>
+                <div class="score"><span>Home risk</span><b data-score>54</b><i><em></em></i></div>
+                <div class="act"><span>PT home safety evaluation</span><b>$180</b></div>
+                <div class="act"><span>Grab bars, fitted</span><b>$95</b></div>
+                <p class="small">Partner insurers credit both.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ol class="steps">
+          <li class="step" data-step="0">
+            <span class="n">1</span>
+            <h3>Coach before the door opens</h3>
+            <p>Lucía hears a 45-second briefing in Spanish: Mr. Reyes is slowing down, so use the gait belt and keep the dog in the back room.</p>
+          </li>
+          <li class="step" data-step="1">
+            <span class="n">2</span>
+            <h3>Talk for 30 seconds after the visit</h3>
+            <p>No forms. She just tells the app what happened, in her own words and her own language, on her own phone.</p>
+          </li>
+          <li class="step" data-step="2">
+            <span class="n">3</span>
+            <h3>AI finds the hazards</h3>
+            <p>Abri turns her words into structured English notes and flags what matters: unsteady walking and a loose rug on the path to the bathroom.</p>
+          </li>
+          <li class="step" data-step="3">
+            <span class="n">4</span>
+            <h3>The agency acts, and gets credit</h3>
+            <p>The home's risk score jumps. One click orders a $180 PT safety visit and $95 of grab bars. Every step is logged, so the agency's insurer can see it and reward it.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Falls chart -->
+    <section id="falls" class="falls">
+      <div class="falls-copy">
+        <p class="eyebrow">Fall risk, early</p>
+        <h2>We watch how walking changes week to week.</h2>
+        <p>In the highest-risk homes, a small radar on the path to the bathroom tracks walking speed each week, and door sensors count night-time trips. When the same person slows down week after week, Abri flags it before a fall.</p>
+        <div class="compare">
+          <div><b>$275</b><span>to act this week</span></div>
+          <div class="vs">vs</div>
+          <div><b>$60k+</b><span>average billed fall hospitalization</span></div>
+        </div>
+        <p class="fine">A safety signal for the care team to act on. Sources: Kentucky IPRC 2024.</p>
+      </div>
+      <figure class="chart" aria-label="Weekly walking speed falling from 0.94 to 0.73 metres per second over 12 weeks">
+        <svg viewBox="0 0 520 300">
+          <defs>
+            <linearGradient id="fill" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#2b6cb0" stop-opacity=".22" /><stop offset="1" stop-color="#2b6cb0" stop-opacity="0" /></linearGradient>
+          </defs>
+          <g class="grid"><line x1="40" x2="500" y1="60" y2="60" /><line x1="40" x2="500" y1="130" y2="130" /><line x1="40" x2="500" y1="200" y2="200" /><line x1="40" x2="500" y1="270" y2="270" /></g>
+          <line class="alert" x1="40" x2="500" y1="150" y2="150" />
+          <text class="alert-t" x="500" y="142" text-anchor="end">alert line</text>
+          <path class="area" d="" />
+          <path class="trend" d="" />
+          <circle class="dot" r="7" cx="-20" cy="-20" />
+          <text class="label" x="40" y="292">12 weeks ago</text>
+          <text class="label" x="500" y="292" text-anchor="end">this week</text>
+        </svg>
+        <figcaption><span class="speed">0.94</span> m/s walking speed · <span class="trips">2</span> night trips</figcaption>
+      </figure>
+    </section>
+
+    <!-- Claims timeline -->
+    <section id="claims" class="claims">
+      <div class="claims-head">
+        <p class="eyebrow">Claims, defended</p>
+        <h2>From he-said/she-said to a clear record.</h2>
+        <p>A family says a ring went missing and names the aide. Abri checks the visit record in seconds.</p>
+      </div>
+      <ol class="timeline">
+        <li class="ev"><time>08:02</time><span class="ic">🔊</span><div>Pre-shift briefing played to Lucía<code>sha256 b978a385…</code></div></li>
+        <li class="ev"><time>08:14</time><span class="ic">📍</span><div>Lucía's phone detected at the home beacon<code>sha256 1d86c59c…</code></div></li>
+        <li class="ev"><time>10:05</time><span class="ic">🎙️</span><div>Debrief: “Ring was on the dresser.”<code>sha256 7a31e0d2…</code></div></li>
+        <li class="ev"><time>10:12</time><span class="ic">📍</span><div>Lucía's phone left beacon range<code>sha256 94caad5e…</code></div></li>
+        <li class="ev late"><time>14:30</time><span class="ic">🚪</span><div>Front door opened, with no aide present<code>sha256 c3f09b11…</code></div></li>
+        <li class="verdict"><b>Record supports the aide.</b> No aide was in the home during the reported window, and the hash chain verifies that nothing was edited.</li>
+      </ol>
+      <p class="fine center">Illustrative scenario from the Abri demo.</p>
+    </section>
+
+    <!-- Privacy -->
+    <section class="privacy">
+      <div class="kit reveal">
+        <div class="kit-item"><b>1</b><span>Radar</span><small>Walking speed on one path. No images.</small></div>
+        <div class="kit-item"><b>2</b><span>Door sensors</span><small>Records when a door opens or closes.</small></div>
+        <div class="kit-item"><b>3</b><span>Cellular hub</span><small>No home Wi-Fi needed. 15-minute install.</small></div>
+      </div>
+      <div class="privacy-copy reveal">
+        <p class="eyebrow">Private by design</p>
+        <h2>The kit has no camera and no microphone.</h2>
+        <p>Only the aide records, on their own phone, after she leaves the room. The kit goes only to the homes that need it most, often funded by the agency's insurer, and it sends only small events like “walk took 8.6 seconds.”</p>
+      </div>
+    </section>
+
+    <!-- Kit blueprint (3D) -->
+    <section id="kit" class="blueprint">
+      <div class="bp-head reveal">
+        <p class="eyebrow">The Abri Kit · pilot design</p>
+        <h2>One box in the hallway. Two door sensors.</h2>
+        <p>Drag or use the view buttons to look around, tap a numbered part, or play a scene to watch what the kit notices and the small events it sends.</p>
+      </div>
+      <div class="bp-wrap reveal">
+        <div class="bp-stage">
+          <canvas id="bp-canvas" role="img" aria-label="3D blueprint of a client home: a radar hub on the hallway wall watches the walk from bedroom to bathroom, with sensors on the bathroom and front doors."></canvas>
+          <div class="bp-overlay"></div>
+          <div class="bp-views" role="group" aria-label="Camera view">
+            <button type="button" data-view="iso" aria-pressed="true">3D</button>
+            <button type="button" data-view="plan" aria-pressed="false">Floor plan</button>
+            <button type="button" data-view="hall" aria-pressed="false">Hallway</button>
+          </div>
+          <div class="bp-titleblock" aria-hidden="true"><b>ABRI KIT · CLIENT HOME</b><span>SHEET A-1 · PILOT DESIGN · NOT TO SCALE</span></div>
+          <p class="bp-fallback">The 3D blueprint needs WebGL. The kit is a radar hub on the hallway wall plus sensors on the bathroom and front doors.</p>
+        </div>
+        <aside class="bp-side">
+          <div class="bp-scenes" role="group" aria-label="Play a scene">
+            <p class="bp-kicker">Play a scene</p>
+            <button type="button" data-scene="night">Night bathroom trip</button>
+            <button type="button" data-scene="slow">Same walk, 12 weeks later</button>
+            <button type="button" data-scene="aide">Aide arrives</button>
+          </div>
+          <div class="bp-info" aria-live="polite"></div>
+          <div class="bp-log">
+            <p class="bp-kicker">Events sent to Abri</p>
+            <ol aria-live="polite"><li class="ev-empty">Play a scene to see events.</li></ol>
+          </div>
+        </aside>
+      </div>
+      <p class="fine center">A pilot design for 10 homes. The hub software runs today against a simulator.</p>
+    </section>
+
+    <!-- For agencies -->
+    <section id="agencies" class="agencies">
+      <p class="eyebrow center">For home care agencies</p>
+      <h2 class="center">Less paperwork. Fewer incidents. Proof that you run a safe operation.</h2>
+      <div class="cards">
+        <article class="card reveal"><h3>Aide app</h3><p>Briefings and 30-second debriefs in any language. Replaces end-of-visit notes.</p></article>
+        <article class="card reveal"><h3>Risk dashboard</h3><p>Every home ranked by an explainable score, with hazards and one-click fixes.</p></article>
+        <article class="card reveal"><h3>Evidence record</h3><p>Tamper-evident visit history, ready the moment an accusation comes in.</p></article>
+        <article class="card reveal"><h3>Insurer-ready reports</h3><p>A safety report and incident evidence to hand your insurer or broker at renewal.</p></article>
+      </div>
+    </section>
+
+    <!-- Insurers -->
+    <section class="insurers">
+      <div class="reveal">
+        <p class="eyebrow">For insurers and brokers</p>
+        <h2>See inside the homes you cover.</h2>
+        <p>Home care risk is priced from a payroll number. Abri agencies come with visit-level evidence, hazard logs and fall-risk trends. Partner with us to reward safe agencies, fund kits for high-risk homes, and close claims faster.</p>
+      </div>
+      <a class="btn reveal" href="mailto:ashley.huang@berkeley.edu?subject=Abri%20insurer%20partnership">Talk partnerships</a>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+      <h2 class="center">Questions</h2>
+      <details class="reveal"><summary>Do we need hardware to start?</summary><p>No. Debriefs, risk scores, coaching and the evidence record work on aides' phones alone. The radar kit is added only in the highest-risk homes.</p></details>
+      <details class="reveal"><summary>Is this a medical device?</summary><p>No. Abri tracks safety and activity trends and suggests practical steps like a PT home-safety visit. It doesn't diagnose or replace clinical judgment.</p></details>
+      <details class="reveal"><summary>Does it replace EVV?</summary><p>No. Abri's presence record complements your state's electronic visit verification. It isn't a substitute for it.</p></details>
+      <details class="reveal"><summary>Is Abri an insurance company?</summary><p>No. Abri is software for home care agencies. Your coverage stays with your insurer. Insurers and brokers who partner with Abri use its safety reports to reward agencies that run safe operations, and can fund safety kits for high-risk homes.</p></details>
+    </section>
+
+    <!-- CTA -->
+    <section id="pilot" class="pilot">
+      <h2>Become a design partner</h2>
+      <p>We're looking for home care agencies with 25–250 aides to shape Abri with us. Free during the pilot.</p>
+      <form class="signup" action="mailto:ashley.huang@berkeley.edu" method="post" enctype="text/plain">
+        <input name="agency" placeholder="Agency name" required aria-label="Agency name" />
+        <input name="email" type="email" placeholder="Work email" required aria-label="Work email" />
+        <button class="btn" type="submit">Get in touch</button>
+      </form>
+      <p class="fine">Or email <a href="mailto:ashley.huang@berkeley.edu">ashley.huang@berkeley.edu</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Abri</span>
+    <span>Abri is software for home care agencies. It is not an insurance company and does not sell insurance.</span>
+  </footer>
+
+  <script src="main.js?v=13"></script>
+  <script type="importmap">{ "imports": { "three": "./vendor/three.module.min.js", "three/addons/": "./vendor/" } }</script>
+  <script type="module" src="kit3d.js?v=13"></script>
+</body>
+</html>
