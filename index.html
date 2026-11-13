@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=13" />
+  <link rel="stylesheet" href="styles.css?v=14" />
 </head>
 <body>
   <div class="progress" aria-hidden="true"><span></span></div>
@@ -20,6 +20,7 @@
       <span>Abri</span>
     </a>
     <nav>
+      <a href="#demo">Demo</a>
       <a href="#how">How it works</a>
       <a href="#falls">Fall risk</a>
       <a href="#claims">Claims</a>
@@ -38,7 +39,7 @@
         <p class="lede reveal">Abri turns a 30-second aide debrief into hazard alerts, early fall-risk signals and a tamper-evident visit record. Your aides get less paperwork, your clients get safer homes, and your insurer gets proof you run a safe operation.</p>
         <div class="cta reveal">
           <a class="btn" href="#pilot">Become a design partner</a>
-          <a class="btn btn-ghost" href="#how">See a visit →</a>
+          <a class="btn btn-ghost" href="#demo">Watch the demo →</a>
         </div>
         <p class="fine reveal">No cameras. No microphones in the home. Works on the aide's own phone.</p>
       </div>
@@ -70,6 +71,16 @@
       <div class="stat reveal"><b data-count="384" data-prefix="$" data-suffix="k">0</b><span>average resident-abuse claim</span></div>
       <div class="stat reveal"><b data-count="23" data-suffix="%">0</b><span>fewer falls with exercise programs</span></div>
       <p class="sources">Sources: PHI 2025 · CNA Aging Services 2024 · Cochrane 2019</p>
+    </section>
+
+    <!-- Product demo -->
+    <section id="demo" class="demo">
+      <div class="demo-head">
+        <p class="eyebrow">See it in action</p>
+        <h2>One minute inside Abri</h2>
+        <p class="lede">An aide's voice note in Spanish, a bruise report the record answers, and a fall-risk alert weeks before a fall.</p>
+      </div>
+      <video class="demo-video" src="media/abri-demo.mp4" poster="media/abri-demo-poster.jpg" controls playsinline muted preload="metadata"></video>
     </section>
 
     <!-- Scrollytelling -->
@@ -283,8 +294,8 @@
     <span>Abri is software for home care agencies. It is not an insurance company and does not sell insurance.</span>
   </footer>
 
-  <script src="main.js?v=13"></script>
+  <script src="main.js?v=14"></script>
   <script type="importmap">{ "imports": { "three": "./vendor/three.module.min.js", "three/addons/": "./vendor/" } }</script>
-  <script type="module" src="kit3d.js?v=13"></script>
+  <script type="module" src="kit3d.js?v=14"></script>
 </body>
 </html>
